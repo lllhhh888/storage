@@ -1,0 +1,12 @@
+# 忽略目录
+demo/
+node_modules/
+lib/
+
+# 忽略指定文件
+babel.config.json
+*.map
+.browserslistrc
+.editorconfig
+.eslintrc.js
+.tsconfig.json

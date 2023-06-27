@@ -1,0 +1,29 @@
+{
+  "name": "storage",
+  "version": "1.0.5",
+  "author": "lihui",
+  "main": "dist/storage.esm.js",
+  "license": "MIT",
+  "type": "module",
+  "types": "dist/storage.d.ts",
+  "description": "基于localStorage进行加密，过期封装",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.1",
+    "@types/crypto-js": "^4.1.1",
+    "babel-preset-env": "^1.7.0",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "tslib": "^2.5.3",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
